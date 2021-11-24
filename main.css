@@ -1,0 +1,11 @@
+body {
+    font-family: monospace;
+}
+
+.button {
+    padding: 0 30%;
+}
+
+#msg {
+    font-family: monospace;
+}

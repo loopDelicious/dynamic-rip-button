@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run in Postman</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="button">
+        <h1>Run in Postman</h1>
+        <hr />
+        <p id="msg">
+            Input value, and <b>Submit</b>.
+        </p>
+        <form method="post" onsubmit="return createEnv();">
+            <label for="secretstring">Secret string</label>
+            <input type="text" id="secret-string" name="secretstring"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <br />
+        <p id="msg">
+            Then click the <b>Run in Postman</b> button to fork the collection and
+            environment into your own instance of Postman. The environment will contain your secret string.
+        </p>
+        <div class="postman-run-button" data-postman-action="collection/fork"
+            data-postman-var-1="1559979-8aa8a323-6308-429c-90ca-e85d1d0bb33e"
+            data-postman-collection-url="entityId=1559979-8aa8a323-6308-429c-90ca-e85d1d0bb33e&entityType=collection&workspaceId=ef3cdedd-f58c-4492-9ed0-4dcf456987b2">
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
