@@ -4,9 +4,9 @@ function createEnv() {
     var secretString = document.getElementById('secret-string').value,
         runButtonIndex = 0,
         envData = {
-            password: secretString
+            passphrase: secretString
         };
-    _pm('env.create', 'Secret Strings', envData, runButtonIndex);
+    _pm('env.create', 'Passphrase', envData, runButtonIndex);
     return false;
 }
 
